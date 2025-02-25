@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">TaskRecyclerViewV3</string>
     <string name="button_add">ADD PLANT</string>
+    <string name="edit_text_title_hint">Title</string>
+    <string name="edit_text_description">Description</string>
+    <string name="buttonEditTextDone">DONE</string>
 </resources>
