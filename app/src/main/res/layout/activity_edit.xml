@@ -34,6 +34,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="60dp"
@@ -88,5 +89,15 @@
         android:text="Button Next"
         app:layout_constraintEnd_toEndOf="@+id/cardViewEdit"
         app:layout_constraintTop_toBottomOf="@+id/cardViewEdit" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Added change 2"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonEdit"
+        app:layout_constraintEnd_toStartOf="@+id/cardViewEdit"
+        app:layout_constraintStart_toStartOf="@id/buttonEdit"
+        app:layout_constraintTop_toTopOf="@+id/buttonEdit" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
