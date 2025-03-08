@@ -2,6 +2,7 @@ package com.example.android_homework.taskrecyclerviewv3
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
@@ -39,6 +40,7 @@ class MainActivity : AppCompatActivity() {
             if (it.resultCode == RESULT_OK) {
                 adapter.addPlant(it.data?.getSerializableExtra("plant") as Plant)
             }
+            Log.d("MyLog", "Added change 1")
         }
     }
 
